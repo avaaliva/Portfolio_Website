@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ava Aliva - Portfolio</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+    <div class="scroll-indicator" id="scrollIndicator"></div>
+
+    <header>
+        <nav>
+            <a href="#" class="logo">AA</a>
+            <ul class="nav-links">
+                <li><a onclick="scrollToSection('home')">Home</a></li>
+                <li><a onclick="scrollToSection('about')">About</a></li>
+                <li><a onclick="scrollToSection('skills')">Skills</a></li>
+                <li><a onclick="scrollToSection('projects')">Projects</a></li>
+                <li><a onclick="scrollToSection('contact')">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="floating"></div>
+        <div class="floating"></div>
+        <div class="floating"></div>
+
+        <div class="hero-content">
+            <h1>Ava Aliva</h1>
+            <p>Computer Science Engineering Student | Dancer | Coder</p>
+            <button class="cta-button" onclick="scrollToSection('about')">Discover My Journey</button>
+        </div>
+    </section>
+
+    <div class="container">
+        <section id="about">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="profile-image">
+                    <img src="Ava.jpeg" alt="AA">
+                </div>
+                <div class="about-text">
+                    <p>Hello! I'm Ava Aliva, a passionate Computer Science Engineering student and
+                        aspiring Frontend Developer who loves blending technology with creativity. With a strong
+                        foundation in modern web technologies, I enjoy crafting beautiful, responsive, and interactive
+                        web experiences that not only work seamlessly but also leave a lasting impression.
+                    </p>
+                    <br>
+                    <p> My journey in tech is fueled by curiosity, innovation, and problem-solving, while my love for dance adds
+                        rhythm, precision, and artistic flair to everything I create. Whether it’s building intuitive
+                        user interfaces or exploring new design ideas, I strive to bring both logic and creativity
+                        together to transform concepts into impactful digital realities.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2 class="section-title">Skills & Passions</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">💻</div>
+                    <h3>Programming</h3>
+                    <p>Passionate about coding with experience in various programming languages and frameworks. Always
+                        eager to learn new technologies.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">💃</div>
+                    <h3>Dance</h3>
+                    <p>Expressing creativity through movement and rhythm. Dance teaches me discipline, coordination, and
+                        artistic expression.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🎓</div>
+                    <h3>Computer Science</h3>
+                    <p>Currently pursuing Computer Science Engineering, gaining deep knowledge in algorithms, data
+                        structures, and software development.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">🚀</div>
+                    <div class="project-content">
+                        <h3>Web Application</h3>
+                        <p>A modern web application showcasing my frontend development skills with
+                            responsive design.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2 class="section-title">Let's Connect</h2>
+            <div class="contact-content">
+                <p>I'm always excited to connect with fellow developers, dancers, and creative minds. Whether you want
+                    to collaborate on a project, discuss technology, or share dance moves, I'd love to hear from you!
+                </p>
+
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <span><a href=""></a>ava.aliva2004@email.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <span>LinkedIn: /in/ava-aliva</span>
+                    </div>
+                    <div class="contact-item">
+                        <span>GitHub: /ava-aliva</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Ava Aliva. Crafted with passion and code. </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
